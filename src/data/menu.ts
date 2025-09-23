@@ -1,9 +1,16 @@
 // src/data/menu.ts
 
 export const headerMenu = [
-    { name: 'Theme Info', link: '/theme-info' },
-    { name: 'Our Team', link: '/team' },
     { name: 'Blog', link: '/blog' },
+    { name: 'Courses', link: '/theme-info' },
+    { name: 'Services', link: '/theme-info',
+        children: [
+            { name: 'Start Your Trucking Business', link: '/services#support' },
+            { name: 'Factoring', link: '/services#consulting' },
+            { name: 'Drug & Alcohol Testing', link: '/services#training' },
+        ]
+     },
+    { name: 'Our Team', link: '/team' },
     { name: 'Style-Guide', link: '/style-guide', showArrow: false,
         children: [
             { name: 'Typography', link: '/style-guide#typography' },

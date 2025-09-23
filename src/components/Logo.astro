@@ -1,6 +1,4 @@
 ---
-import { Image } from 'astro:assets';
-import logo from '../assets/astro.svg';
 interface Props {
     variant?: 'header' | 'footer' | 'dark';
 }
@@ -28,6 +26,5 @@ const getLogoClass = () => {
         // Please, use something like your company name or “Home”, not “logo.”
         // If there is link text, leave alt empty.
     }
-    <Image src={logo} alt="" class="hidden" />
-    <span class="font-bold">Titan</span> Core
+    <img src="https://strapi.vlocitycapital.com/uploads/MBA_Full_Color_300x300_0398c03209.webp" alt="TruckingMBA" class="h-12 w-auto" />
 </a>

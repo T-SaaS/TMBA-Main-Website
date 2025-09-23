@@ -1,21 +1,21 @@
 export const siteConfig = {
-  companyName: 'Titan Core',
-  siteUrl: 'https://titan-core.com',
+  companyName: 'TruckingMBA',
+  siteUrl: 'https://trucking.mba',
   Socials: {
-      xSocial: 'https://x.com/astrodotbuild',
-      Github: 'https://github.com/withastro',
-      Instagram: 'https://www.instagram.com/astrodotbuild',
-      LinkedIn: 'https://www.linkedin.com/company/astrodotbuild',
-      Email: 'support@titan-core.com',
-      Phone: '+123 456 7890',
-      Location: '123 Main St, Anytown, USA',
+      xSocial: 'https://www.twitter.com/vlocitygroup',
+      Facebook: 'https://www.facebook.com/vlocitygroup/',
+      Instagram: 'https://www.instagram.com/vlocitygroup/',
+      LinkedIn: 'https://www.linkedin.com/company/vlocitygroup',
+      Email: 'support@trucking.mba',
+      Phone: '+1 423 641-0833',
+      Location: '1613 Mitchell Ave Apt A, Chattanooga, TN 37408',
   }
 };
 
 export const SEO = {
   Separator: '|',
-  SiteName: 'Titan Core',
-  defaultDescription: 'A modern, high-performance Astro JS theme',
+  SiteName: 'TruckingMBA',
+  defaultDescription: 'TruckingMBA is a platform for trucking companies to find the best courses and services to help them grow their business.',
 };
   
 export const blogSetting = {
